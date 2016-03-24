@@ -14,15 +14,15 @@
 
 #The directory where the keyfiles are located
 # The key file with columns: Flowcell Lane Barcode Sample PlateName Row Column
-KEYFILE_DIR=/home/smithkp/agonzale/Shared/GBS_Projects/NAM_GBS_2_6row/NAM_2_6_fastq/KEYFILES_Six-row
+KEYFILE_DIR=/home/morrellp/llei/Shared/shared/GBS_ABNAM/KEYFILES_Six-row
 
 # The directory where the multiplexed samples are located or where their symbolic links are located
-INDIR=/home/smithkp/agonzale/Shared/GBS_Projects/NAM_GBS_2_6row/NAM_2_6_fastq/FASTQ
+INDIR=/home/morrellp/llei/Shared/shared/GBS_ABNAM/Fastq
 
 # The path to the file containing the location of the fastq files corresponding to lanes requested
-INDIR_fastq=/home/smithkp/shared/GBS_Projects/NAM_GBS_2_6row/NAM_2_6_fastq/KEYFILES_Six-row/Path_fastq_Six-row.txt
+INDIR_fastq=/home/morrellp/llei/Shared/shared/GBS_ABNAM/KEYFILES_Six-row/Path_fastq_Six-row.txt
 # The directory to output the demultiplexed fastq files
-OUTDIR=/scratch.global/agonzale/NAM_GBS_2_6row
+OUTDIR=/scratch.global/llei/NAM_GBS_2_6row
 
 # The name of the current project (e.g. 2row_TP)
 PROJECT='NAM_GBS_6row'
@@ -31,7 +31,7 @@ PROJECT='NAM_GBS_6row'
 EMAIL='llei@umn.edu'
 
 # The path to the "GBarleyS" folder
-VCPWD=/home/smithkp/agonzale/Shared/GBS_Projects/NAM_GBS_2_6row/Pipeline/GBarleyS
+VCPWD=/home/morrellp/llei/Deleterious_mutation_project/Big_NAM/GBarleyS/GBarleyS
 
 ##### Program Settings #####
 # Queue settings for MSI
