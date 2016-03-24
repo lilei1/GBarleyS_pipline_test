@@ -28,7 +28,7 @@ OUTDIR=/scratch.global/agonzale/NAM_GBS_2_6row
 PROJECT='NAM_GBS_6row'
 
 # Email address for queue notification
-EMAIL='agonzale@umn.edu'
+EMAIL='llei@umn.edu'
 
 # The path to the "GBarleyS" folder
 VCPWD=/home/smithkp/agonzale/Shared/GBS_Projects/NAM_GBS_2_6row/Pipeline/GBarleyS
